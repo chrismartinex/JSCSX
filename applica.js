@@ -140,3 +140,34 @@ for (let i = 0; i < timesTenIfOverFive; i++)
   }else if (i < 5)
   console.log(timesTenIfOverFive[i]);
 }
+
+//the sample below also did not work
+const timesTenIfOverFive = [23, 9, 11, 2, 10, 6];
+
+for (let i = 0; i < timesTenIfOverFive.length; i++) {
+  if (i >= 5) {
+    console.log(timesTenIfOverFive[i] * 10);
+  } else {
+    console.log(timesTenIfOverFive[i]);
+  }
+}
+
+console.log(timesTenIfOverFive);
+
+
+// Uncomment the line below to check your work!
+console.log(timesTenIfOverFive); // -> should print [230, 90, 110, 2, 100, 60]
+
+
+//bottom iteration did work for the exercise, I was doing
+
+const timesTenIfOverFive = [23, 9, 11, 2, 10, 6];
+// ADD CODE HERE
+for (let i = 0; i < timesTenIfOverFive.length; i++) {
+    if(timesTenIfOverFive[i]>=5){
+    timesTenIfOverFive[i]=timesTenIfOverFive[i]*10;
+    }
+}
+
+// Uncomment the line below to check your work!
+console.log(timesTenIfOverFive); // -> should print [230, 90, 110, 2, 100, 60]
