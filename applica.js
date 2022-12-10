@@ -123,4 +123,20 @@ console.log(fb);
 
 
 // should log: [1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 13, 14, 'fizzbuzz', 16]
-// odnt
+
+//iterations in Javascript
+//terate through the array and multiply a number by 10 if 
+//it is greater than or equal to 5.
+//example below did not work
+
+
+const timesTenIfOverFive = [23, 9, 11, 2, 10, 6];
+
+for (let i = 0; i < timesTenIfOverFive; i++)
+{
+  if (i >= 5)
+  {
+    timesTenIfOverFive[i] = timesTenIfOverFive[i]*10
+  }else if (i < 5)
+  console.log(timesTenIfOverFive[i]);
+}
