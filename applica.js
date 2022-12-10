@@ -194,10 +194,42 @@ for (let key in obj){
 console.log(arrayBuilder({'cats': 2, 'dogs': 1}));
 console.log(arrayBuilder({});)
 
-
-
-
-
-
-
+//below objects - iterate with for...in js
+//example below is what worked.
 }
+
+const checkObj = {
+  oddNum: 1,
+  evenNum: 2,
+  foundNum: 5,
+  randomNum: 18
+};
+ const objToArray = [];
+
+for (const property in checkObj) {
+  if (checkObj[property] >= 2){
+    objToArray.push(checkObj[property])
+  }
+}
+console.log(objToArray);
+
+
+
+
+
+// // ADD CODE HERE
+// for (const key in checkObj){
+//   if(checkObj [key] >= 2) {
+//     objToArray.push ("${checkObj [key]}");
+//   }
+// }
+// console.log(objToArray)
+
+// for (let key in obj){
+//   let repeatedCount = obj[key];
+//   while(repeatedCount > 0){
+//     objToArray.push[key];
+//     repeatedCount =2;
+//   }
+//   return objToArray;
+// }
