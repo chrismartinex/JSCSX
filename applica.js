@@ -119,7 +119,7 @@ console.log(fb);
 // should log: [1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 13, 14, 'fizzbuzz', 16]
 //string "buzz" divisible by 5
 // string "fizzbuzz" divisible by 3 and 5
-    
+//trying all this things out
 
 
 // should log: [1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 13, 14, 'fizzbuzz', 16]
