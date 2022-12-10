@@ -95,7 +95,7 @@ console.log("christmans");
 // i understood this problem but I'm having to re go over it beacuse it seems confussing, that in the original problem
 //when you psudeo code it they have the information where fizzbuzz is further down the message, but I'm having to put it on top
 //of my for loop when i though I would work on problem even when read from top to bottom, but I guess not. 
-const fb = [];
+
 
 // ADD CODE HERE
 let fb = [];
