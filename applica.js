@@ -171,3 +171,33 @@ for (let i = 0; i < timesTenIfOverFive.length; i++) {
 
 // Uncomment the line below to check your work!
 console.log(timesTenIfOverFive); // -> should print [230, 90, 110, 2, 100, 60]
+
+
+// array builder write a function arrayBuilder that takes in a 
+//count object and returns an array filled with the appropiate
+//numbers elements. The order of the elements in the array does not
+//matter, but repeated elements should be grouped. 
+
+function arrayBuilder(obj) {
+//input obj
+//output: array;
+
+const outputArray = [];
+for (let key in obj){
+  let repeatedCount = obj[key];
+  while(repeatedCount > 0){
+    outputArray.push(key);
+    repeatedCount -= 1;
+  }
+  return outputArray;
+}
+console.log(arrayBuilder({'cats': 2, 'dogs': 1}));
+console.log(arrayBuilder({});)
+
+
+
+
+
+
+
+}
